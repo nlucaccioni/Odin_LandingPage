@@ -4,7 +4,7 @@
     --light-gray: #E5E7EB;
 }
 
-body {
+body, body * {
     font-family: Roboto, 'sans-serif';
     margin: 0;
     padding: 0;
@@ -50,6 +50,11 @@ header, nav, footer {
     color: white;
 }
 
+.container {
+    max-width: 50rem;
+    margin: auto;
+}
+
 .quote_block {
     background-color: var(--light-gray);
     display: flex;
@@ -57,6 +62,17 @@ header, nav, footer {
     align-items: flex-end;
 }
 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
 
 .CTA {
     background-color: var(--light-blue);
