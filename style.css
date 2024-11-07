@@ -51,7 +51,6 @@ h4 {
     max-width: var(--site-width);
     margin: auto;
     display: flex;
-    justify-content: center;
 }
 
 section {
@@ -62,6 +61,10 @@ section {
 header div {
     display: flex;
     justify-content: space-between;
+    padding: 1rem 0;
+}
+nav {
+    align-self: flex-end;
 }
 
 nav ul {
@@ -138,6 +141,7 @@ nav, .hero p, .CTA_copy p {
     flex-direction:column;
     align-items: flex-end;
     padding: 2rem 0;
+    max-width: calc(var(--site-width) - 5rem);
 }
 
 .CTA {
@@ -155,9 +159,10 @@ nav, .hero p, .CTA_copy p {
     background: none;
     border: 3px solid white;
     border-radius: 10px;
-    padding: 0px 30px;
+    padding: 10px 30px;
     font-weight: bold;
-    font-size: 18px
+    font-size: 14px;
+    align-self:center;
 }
 
 footer {
