@@ -1,11 +1,13 @@
 :root {
     --dark-blue: #1F2937;
     --light-blue: #3882F6;
-    --quote-bg: #E5E7EB;
+    --light-gray: #E5E7EB;
 }
 
 body {
     font-family: Roboto, 'sans-serif';
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -16,6 +18,7 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: 900;
+    color: var(--dark-blue)
 }
 
 h3 {
@@ -26,20 +29,41 @@ h4 {
     font-size: 18px;
 }
 
+header button {
+    background-color: var(--light-blue);
+    color: white;
+}
 
 .quote {
     font-weight: 300;
     font-style: italic;
+    color: #1f2937;
+    margin: 0;
 }
 
-header, nav {
+.header_content p {
+    font-size: 18px;
+}
+
+header, nav, footer {
     background-color: var(--dark-blue);
+    color: white;
 }
 
 .quote_block {
-    background-color: var(--quote-bg);
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
 }
+
 
 .CTA {
     background-color: var(--light-blue);
+    color: white;
+}
+
+.CTA button {
+    color:  white;
+    background: none;
 }
