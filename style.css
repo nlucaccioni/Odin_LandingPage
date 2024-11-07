@@ -87,9 +87,12 @@ nav, .hero p {
 .hero button {
     background-color: var(--light-blue);
     color: white;
-    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
     border: none;
     border-radius: 10px;
+    align-self: flex-start;
 }
 
 .hero_img {
