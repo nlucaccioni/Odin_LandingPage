@@ -1,0 +1,45 @@
+:root {
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --quote-bg: #E5E7EB;
+}
+
+body {
+    font-family: Roboto, 'sans-serif';
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+}
+
+header, nav {
+    background-color: var(--dark-blue);
+}
+
+.quote_block {
+    background-color: var(--quote-bg);
+}
+
+.CTA {
+    background-color: var(--light-blue);
+}
