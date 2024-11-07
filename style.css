@@ -14,6 +14,7 @@ body, body * {
 h1 {
     font-size: 48px;
     font-weight: 900;
+    line-height: 1em;
 }
 
 h2 {
@@ -28,11 +29,6 @@ h3 {
 
 h4 {
     font-size: 18px;
-}
-
-.hero button {
-    background-color: var(--light-blue);
-    color: white;
 }
 
 .quote {
@@ -56,13 +52,6 @@ h4 {
     margin: auto;
 }
 
-.quote_block {
-    background-color: var(--light-gray);
-    display: flex;
-    flex-direction:column;
-    align-items: flex-end;
-}
-
 
 header div {
     display: flex;
@@ -77,6 +66,45 @@ nav ul {
 
 nav, .hero p {
     color: var(--light-gray)
+}
+
+.hero .container{
+    padding: 5rem 0;
+    display: flex;
+    gap: 5em;
+}
+
+.hero .container * {
+    flex: 1;
+}
+
+.hero_content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero button {
+    background-color: var(--light-blue);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero_img {
+    background-color: var(--light-gray);
+    color: var(--dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_block {
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
 }
 
 .CTA {
