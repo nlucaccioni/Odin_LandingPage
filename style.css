@@ -2,6 +2,7 @@
     --dark-blue: #1F2937;
     --light-blue: #3882F6;
     --light-gray: #E5E7EB;
+    --site-width: 50rem;
 }
 
 body, body * {
@@ -29,7 +30,7 @@ h4 {
     font-size: 18px;
 }
 
-header button {
+.hero button {
     background-color: var(--light-blue);
     color: white;
 }
@@ -45,13 +46,13 @@ header button {
     font-size: 18px;
 }
 
-header, nav, footer {
+.hero, header, nav, footer {
     background-color: var(--dark-blue);
     color: white;
 }
 
 .container {
-    max-width: 50rem;
+    max-width: var(--site-width);
     margin: auto;
 }
 
@@ -63,7 +64,7 @@ header, nav, footer {
 }
 
 
-nav {
+header div {
     display: flex;
     justify-content: space-between;
 }
@@ -72,6 +73,10 @@ nav ul {
     display: flex;
     gap: 1rem;
     list-style: none;
+}
+
+nav, .hero p {
+    color: var(--light-gray)
 }
 
 .CTA {
